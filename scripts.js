@@ -18,6 +18,8 @@ let userScore = 0;
 let computerScore = 0;
 let turns = 5;
 
+//*------Function Definiton/Declarations--------------------
+
 //*ComputerPlay Function.
 function computerPlay() {
   let randomNumber = Math.floor(Math.random() * 3 + 1);
@@ -103,4 +105,10 @@ function game() {
   }
 }
 
+//*----------------------------------------------------------
+//* Game begins
+//*----------------------------------------------------------
+
 game();
+
+//*End--------------------------------------------------------
