@@ -92,9 +92,9 @@ function game() {
     } else {
       computerScore++;
     }
-  }
 
-  console.log(`ScoreBoard - User:${userScore} Computer:${computerScore}`);
+    console.log(`ScoreBoard - User:${userScore} Computer:${computerScore}`);
+  }
 
   if (userScore > computerScore) {
     console.log(`You win by a score of ${userScore} to ${computerScore}`);
